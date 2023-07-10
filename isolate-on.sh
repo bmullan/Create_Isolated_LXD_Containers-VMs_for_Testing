@@ -1,13 +1,16 @@
-Create and Network Isolate 3 LXD Containers from each other but not the Host or Internet
-
 #!/bin/bash  
+
+# Create and Network Isolate 3 LXD Containers from each other but not
+# the LXD Host or Internet
+
   
 #====================================================================
 # Purpose:  
 # to create 3 LXD containers on 1 host that are isolated from each 
-# other but NOT from the Host or the Internet to allow testing of VPN
-# (as an example) as a means to interconnect the isolated containers 
-# (thus simulating multi-cloud)
+# other but NOT from the Host or the Internet. This allows testing of
+# VPN (as an example) as a means to interconnect the isolated 
+# containers to simulate servers in a multi-cloud, multi-server
+# environment
   
 #====================================================================
 # Create 3 LXD bridges
