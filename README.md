@@ -1,6 +1,7 @@
-# H3 Create_Isolated_LXD_Containers_for_Testing  
+# H3 Create Network Isolated LXD Containers for Testing use  
 
-Scripts to Create &amp; Cleanup 3 Network (lxdbr1, lxdbr2, lxdbr3) Isolated LXD containers (C1, C2, C3) 
+Two Bash Scripts to Create &amp; Cleanup 3 Network (lxdbr1, lxdbr2, lxdbr3) and
+attached but Network Isolated (from each other) LXD containers (C1, C2, C3) 
 
 *Here are 2 simple Bash scripts.*
 
