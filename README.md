@@ -1,10 +1,10 @@
 # H3 Create Network Isolated LXD Containers for Testing use  
 
-Two Bash Scripts to Create &amp; Cleanup 3 Network (lxdbr1, lxdbr2, lxdbr3) and
+Two Bash Scripts to Create &amp; Cleanup 3 Network (lxdbr1, lxdbr2, lxdbr3) and  
 attached but Network Isolated (from each other) LXD containers (C1, C2, C3) 
-
-*Here are 2 simple Bash scripts.*
-
+  
+*Here are 2 simple Bash scripts.*  
+  
 > **isolate-on.sh**  
 > **isolate-off.sh**
 
