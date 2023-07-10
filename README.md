@@ -1,6 +1,6 @@
 # Create Network Isolated LXD Containers for Testing use  
 
-Two Bash Scripts to Create (***isolate-on.sh*** &amp; and to Cleanup (***isolate-off.sh)***
+Two Bash Scripts to Create (***isolate-on.sh***) &amp; and to Cleanup (***isolate-off.sh)***
 three Network (lxdbr1, lxdbr2, lxdbr3) and the attached but Network Isolated (from each other) 
 LXD containers (C1, C2, C3).. 
   
