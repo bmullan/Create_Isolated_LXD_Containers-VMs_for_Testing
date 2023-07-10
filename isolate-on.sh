@@ -37,7 +37,7 @@ sudo iptables -A FORWARD -i lxdbr3 -o lxdbr2 -j REJECT
 # Assign C2 to use the LXDBR2 bridge
 # Assign C3 to use the LXDBR3 bridge
   
-lxc launch images:ubuntu/24.02 c1 -n lxdbr1
-lxc launch images:ubuntu/24.02 c2 -n lxdbr2
-lxc launch images:ubuntu/24.02 c3 -n lxdbr3
+lxc launch ubuntu:22.04 c1 -n lxdbr1
+lxc launch ubuntu:22.04 c2 -n lxdbr2
+lxc launch ubuntu:22.04 c3 -n lxdbr3
 
