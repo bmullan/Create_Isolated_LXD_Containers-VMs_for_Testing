@@ -1,8 +1,12 @@
 # Create Network Isolated LXD Containers for Testing use  
 
-Two Bash Scripts to Create (***isolate-on.sh***) &amp; and to Cleanup (***isolate-off.sh)***
+Two Bash Scripts to *Create* (***isolate-on.sh***) &amp; and to *Cleanup* (***isolate-off.sh)***
 three Network (lxdbr1, lxdbr2, lxdbr3) and the attached but Network Isolated (from each other) 
-LXD containers (C1, C2, C3).. 
+LXD containers (C1, C2, C3).
+
+Why?  There are probably alot of examples but one might me that you may want to test something 
+like a VPN between servers on multiple Clouds but don't want to pay for multiple Cloud Server 
+Instances.   You could use these scripts to simulate isolated Cloud servers.
   
 *Here are 2 simple Bash scripts.*  
   
