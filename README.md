@@ -12,7 +12,7 @@ attached but Network Isolated (from each other) LXD containers (C1, C2, C3)
   
 ***Purpose:***   
 * Create 3 new LXD Bridges (lxdbr1, lxdbr2, lxdbr3)
-* Create 3 new LXD Containers and attached each one to its corresponding LXD Bridgge
+* Create 3 new LXD Containers each attached to its corresponding LXD Bridge
 
 ***Assignments are***  
 
