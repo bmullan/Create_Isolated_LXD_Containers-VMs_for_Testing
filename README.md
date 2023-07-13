@@ -4,7 +4,8 @@ Two Bash Scripts to *Create* (***isolate-on.sh***) &amp; and to *Cleanup* (***is
 three separated LXD Network bridges (lxdbr1, lxdbr2, lxdbr3) and the attached but 
 Network Isolated (from each other) LXD containers (cn1, cn2, cn3) and LXD VMs (vm1, vm2, vm3).
 
-Why?  There are probably alot of examples but one might be that you may want to test something 
+Why?  
+There are probably alot of examples but one might be that you may want to test something 
 like a VPN between servers on multiple Clouds but don't want to pay for multiple Cloud Server 
 Instances.   You could use these scripts to simulate isolated Cloud servers.
   
@@ -33,12 +34,11 @@ Instances.   You could use these scripts to simulate isolated Cloud servers.
 | vm3              | lxdbr3 |
 
 After executing ***isolate-on.sh*** each of those 3 LXD Containers/VM will be network isolated from each other  
-but not from their Host or the Internet or their "counterpart".
+but not from their Host, the Internet or their "counterpart".
 
 Example:   
 CN1 and VM1 will get IPv4 addresses on the same subnet so they can communicate with the internet/Host
-and each other
-Same for CN2/VM2 and CN3/VM3.
+and each other.   The same happens for CN2/VM2 and CN3/VM3.
 
 ---
   
